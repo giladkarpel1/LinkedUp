@@ -40,10 +40,8 @@ We implemented three key components to compute the **match score** between users
 
 Our **match score** is a weighted sum of the following: 
 
-$$
+Score(u₁, u₂) = w₁ ⋅ successNN(u₁, u₂)  + w₂ ⋅ sim(u₁₍interest₎, u₂₍interest₎) + w₃ ⋅ comp(u₁₍education₎, u₂₍education₎)
 
-\text{Score}(u_1, u_2) = w_1 \cdot \text{successNN}(u_1, u_2)  + w_2 \cdot \text{sim}(u_{1,\text{interest}}, u_{2,\text{interest}}) + w_3 \cdot \text{comp}(u_{1,\text{education}}, u_{2,\text{education}})
-$$
 
 To run our notebook you will have to download the notebook and using the data located in dbfs you will be capable of running all our cells and find your the next co-founder! 
 
