@@ -46,7 +46,7 @@ Score(u₁, u₂) = w₁ ⋅ successNN(u₁, u₂)  + w₂ ⋅ sim(u₁₍intere
 The **weights (w1, w2, w3)** were learned using **Logistic Regression** on real co-founder data.
 
 
-To run our notebook you will have to download the notebook and using the data located in dbfs you will be capable of running all our cells and find your the next co-founder! 
+To run our notebook you will have to download the notebook and using the data located in dbfs you will be capable of running all our cells and find the next co-founder! 
 
 
  
